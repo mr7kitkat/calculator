@@ -46,6 +46,8 @@ div.subscreen{
     padding: 10px;
     background-color: white;
     margin: 5px auto;
+    text-align: right;
+    font-size: 2.5rem;
 }
 
 #buttonGrid{
@@ -83,3 +85,6 @@ div.subscreen{
     background-color: #04dc16;
 }
 
+#clearAll{
+    grid-column: 1/5;
+}

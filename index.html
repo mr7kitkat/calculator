@@ -14,35 +14,35 @@
 <body>
     <div id="outsideBorder">
         <div id="screen" class="insideWidth">
-            <div class="subscreen"></div>
-            <div class="subscreen"></div>
+            <div class="subscreen" id="inputScreen"></div>
+            <div class="subscreen" id="outputScreen"></div>
         </div>
 
         <div class="insideWidth" id="buttonGrid">
-            <div class="buttons red"> AC </div>
-            <div class="buttons"> ( </div>
-            <div class="buttons"> ) </div>
-            <div class="buttons red"> C </div>
-            <div class="buttons"> ! </div>
-            <div class="buttons"> X<sup>2</sup> </div>
-            <div class="buttons"> Root </div>
-            <div class="buttons"> / </div>
-            <div class="buttons"> 7 </div>
-            <div class="buttons"> 8 </div>
-            <div class="buttons"> 9 </div>
-            <div class="buttons"> * </div>
-            <div class="buttons"> 4 </div>
-            <div class="buttons"> 5 </div>
-            <div class="buttons"> 6 </div>
-            <div class="buttons"> - </div>
-            <div class="buttons"> 1 </div>
-            <div class="buttons"> 2 </div>
-            <div class="buttons"> 3 </div>
-            <div class="buttons"> + </div>
-            <div class="buttons"> +- </div>
-            <div class="buttons"> 0 </div>
-            <div class="buttons"> . </div>
-            <div class="buttons green"> = </div>    
+            <!-- <div data-key="^" class="buttons"> X<sup>2</sup> </div> -->
+            <div data-key="(" class="buttons"> ( </div>
+            <div data-key=")" class="buttons"> ) </div>
+            <div id="clear" class="buttons red"> C </div>
+            <!-- <div data-key="!" class="buttons"> ! </div> -->
+            <!-- <div data-key="root" class="buttons"> Root </div> -->
+            <div data-key="/" class="buttons"> / </div>
+            <div data-key="7" class="buttons"> 7 </div>
+            <div data-key="8" class="buttons"> 8 </div>
+            <div data-key="9" class="buttons"> 9 </div>
+            <div data-key="*" class="buttons"> * </div>
+            <div data-key="4" class="buttons"> 4 </div>
+            <div data-key="5" class="buttons"> 5 </div>
+            <div data-key="6" class="buttons"> 6 </div>
+            <div data-key="-" class="buttons"> - </div>
+            <div data-key="1" class="buttons"> 1 </div>
+            <div data-key="2" class="buttons"> 2 </div>
+            <div data-key="3" class="buttons"> 3 </div>
+            <div data-key="+" class="buttons"> + </div>
+            <div data-key="+-" class="buttons">  &#177 </div>
+            <div data-key="0" class="buttons"> 0 </div>
+            <div data-key="." class="buttons"> . </div>
+            <div id="evalt" class="buttons green"> = </div> 
+            <div id="clearAll" class="buttons red"> AC </div>   
         </div>
 
     </div>
