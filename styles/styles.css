@@ -71,10 +71,16 @@ div.subscreen{
     border-radius: 5px;
 }
 
+#buttonGrid .buttons:hover{
+    background-color: rgba(0, 0, 0, 0.549);
+
+}
+
 #buttonGrid .buttons:active{
     background-color: var(--blue);
 
 }
+
 
 #buttonGrid .red:active{
     background-color: var(--orange);
@@ -85,6 +91,11 @@ div.subscreen{
     background-color: #04dc16;
 }
 
-#clearAll{
+#credit{
     grid-column: 1/5;
 }
+
+#credit div{
+    color: white;
+}
+
